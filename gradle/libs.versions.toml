@@ -6,7 +6,7 @@
 buildTools = "35.0.0"       # MOLLY: Dockerfile must match this version
 compileSdk = "android-36"   # MOLLY: Dockerfile must match this version
 targetSdk = "35"
-minSdk = "27"
+minSdk = "34"               # POLLY: Raise min SDK to Android 14
 ndk = "28.0.13004108"       # MOLLY: Dockerfile must match this version
 javaVersion = "17"
 kotlinJvmTarget = "17"

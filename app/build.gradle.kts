@@ -30,6 +30,8 @@ val selectableVariants = listOf(
   "prodWebsiteRelease",
   "prodStoreDebug",
   "prodStoreRelease",
+  "prodMiniDebug",
+  "prodMiniRelease",
   "prodWebsiteInstrumentation",
   "stagingWebsiteDebug",
   "stagingWebsiteRelease",
@@ -126,6 +128,10 @@ android {
       // MOLLY: Compress native libs by default as APK is not split on ABIs
       useLegacyPackaging = true
     }
+    // POLLY: Compress DEX files to reduce APK size (slight startup penalty)
+    dex {
+      useLegacyPackaging = true
+    }
     resources {
       excludes += setOf(
         "LICENSE.txt",
@@ -220,10 +226,14 @@ android {
     buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1D\"")
     buildConfigField("boolean", "TRACING_ENABLED", "false")
     buildConfigField("boolean", "USE_STRING_ID", "true")
+    buildConfigField("boolean", "SHOW_DONATIONS", "true")
+    buildConfigField("boolean", "SHOW_HELP", "true")
+    buildConfigField("boolean", "HIDE_FCM_OPTION", "false")
+    buildConfigField("boolean", "HIDE_STORIES", "false")
 
     ndk {
       //noinspection ChromeOsAbiSupport
-      abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86_64")
+      abiFilters += listOf("arm64-v8a")
     }
 
     testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
@@ -290,6 +300,15 @@ android {
       dimension = "distribution"
       buildConfigField("boolean", "MANAGE_MOLLY_UPDATES", "true")
       isDefault = true
+    }
+
+    create("mini") {
+      dimension = "distribution"
+      buildConfigField("boolean", "MANAGE_MOLLY_UPDATES", "false")
+      buildConfigField("boolean", "SHOW_DONATIONS", "false")
+      buildConfigField("boolean", "SHOW_HELP", "false")
+      buildConfigField("boolean", "HIDE_FCM_OPTION", "true")
+      buildConfigField("boolean", "HIDE_STORIES", "true")
     }
 
     create("prod") {
@@ -377,6 +396,7 @@ android {
         val flavors = "-$baseName"
           .replace("-prod", "")
           .replace("-website", "")
+          .replace("-mini", "") // POLLY: Don't duplicate "mini" in filename
           .replace("-release", "")
         val unsigned = if (isSigningReady) "" else "-unsigned"
 
