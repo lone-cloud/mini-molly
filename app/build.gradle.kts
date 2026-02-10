@@ -7,7 +7,7 @@ plugins {
   id("androidx.navigation.safeargs")
   id("kotlin-parcelize")
   id("com.squareup.wire")
-  id("molly")
+  id("print-version")
   id("signal-locales")
 }
 
