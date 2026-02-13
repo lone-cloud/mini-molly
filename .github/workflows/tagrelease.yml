@@ -25,8 +25,8 @@ jobs:
       - name: Extract version from source
         id: extract_version
         run: |
-          version_name=$(./gradlew -q :app:version | jq -r .versionName)
-          echo "version=v$version_name" >> $GITHUB_OUTPUT
+          ver=$(./gradlew -q :app:printVersion | jq -r .android.versionName)
+          echo "version=v$ver" >> $GITHUB_OUTPUT
 
       - name: Tag current commit and push
         run: |
