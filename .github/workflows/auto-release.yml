@@ -33,11 +33,16 @@ jobs:
           
           echo "Polly will use same tag: $MOLLY_VERSION"
           
-          # Check if we already released this version
-          if gh release view "$MOLLY_VERSION" -R ${{ github.repository }} 2>/dev/null; then
-            echo "Release $MOLLY_VERSION already exists, skipping"
+          # Check if we already have a published release for this version
+          RELEASE_STATUS=$(gh release view "$MOLLY_VERSION" -R ${{ github.repository }} --json isDraft -q .isDraft 2>/dev/null || echo "not-found")
+          
+          if [ "$RELEASE_STATUS" = "false" ]; then
+            echo "Published release $MOLLY_VERSION already exists, skipping"
             echo "should-release=false" >> $GITHUB_OUTPUT
           else
+            if [ "$RELEASE_STATUS" = "true" ]; then
+              echo "Draft release $MOLLY_VERSION exists, will be completed by release workflow"
+            fi
             echo "New release needed: $MOLLY_VERSION"
             echo "should-release=true" >> $GITHUB_OUTPUT
             echo "version=$MOLLY_VERSION" >> $GITHUB_OUTPUT

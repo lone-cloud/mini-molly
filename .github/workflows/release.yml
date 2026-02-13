@@ -139,7 +139,11 @@ jobs:
 
       - name: Create release draft
         if: "steps.check_release.outputs.release_exists == 'false'"
-        run: gh release create -d --verify-tag -t "$TAG_REF" "$TAG_REF"
+        run: |
+          RELEASE_NOTES="Based on Molly [$TAG_REF](https://github.com/mollyim/mollyim-android/releases/tag/$TAG_REF)
+          
+          See upstream release notes for changes and updates."
+          gh release create -d --verify-tag -t "$TAG_REF" -n "$RELEASE_NOTES" "$TAG_REF"
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
 
@@ -183,5 +187,10 @@ jobs:
 
       - name: Upload APKs to GitHub release
         run: gh release upload "$TAG_REF" ./apk/*/release/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Publish release
+        run: gh release edit "$TAG_REF" --draft=false
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
