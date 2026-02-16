@@ -626,7 +626,7 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">Mollyをアップデートしてください</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Molly を再登録する</string>
+    <string name="ConversationFragment__reregister_signal">Polly を再登録する</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">戻る</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
@@ -1325,7 +1325,7 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">バッテリーの最適化のために通知が遅れることがあります</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Molly のアプリ情報でバッテリーの最適化を無効にすると、メッセージ通知がすみやかに表示されます。</string>
+    <string name="PromptBatterySaverBottomSheet__message">Polly のアプリ情報でバッテリーの最適化を無効にすると、メッセージ通知がすみやかに表示されます。</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">バッテリーの最適化のために通知が遅れることがあります</string>
@@ -1482,7 +1482,7 @@
     <!-- Dialog title displayed when remote restore failed because of an outdated backup version. -->
     <string name="RemoteRestoreActivity__couldnt_restore">このバックアップを復元できませんでした</string>
     <!-- Dialog message explaining that an update to Signal is required to restore the backup. -->
-    <string name="RemoteRestoreActivity__update_latest">このバージョンの Molly ではバックアップを復元できません。最新バージョンにアップデートして、もう一度お試しください。</string>
+    <string name="RemoteRestoreActivity__update_latest">このバージョンの Polly ではバックアップを復元できません。最新バージョンにアップデートして、もう一度お試しください。</string>
     <!-- Text on button that when pressed will redirect them to update Signal -->
     <string name="RemoteRestoreActivity__update_signal">Mollyをアップデートしてください</string>
     <!-- Text label button to dismiss the dialog -->
@@ -2215,7 +2215,7 @@
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">不正なパスフレーズです！</string>
     <string name="PassphrasePromptActivity_unlock_signal">Mollyのロックを解除する</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - ロック画面</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - ロック画面</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">地図</string>
@@ -2291,7 +2291,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">マイストーリー</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly 通話</string>
+    <string name="Recipient_signal_call">Polly 通話</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">ブロックする</string>
@@ -2329,7 +2329,7 @@
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">タップして動画を有効にする</string>
     <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s と通話するには、Mollyにカメラへのアクセスを許可してください。</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">呼び出しています…</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
     <string name="WebRtcCallActivity__reconnecting">再接続しています…</string>
@@ -2676,7 +2676,7 @@
     <string name="RegistrationActivity_non_standard_number_format">非標準の数字フォーマット</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">あなたが入力した数字 (%1$s) は、非標準のフォーマットのようです。\n\n%2$s を意図していすか？</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Molly Android - 電話番号フォーマット</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Polly Android - 電話番号フォーマット</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">通話を要求されました</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -3280,7 +3280,7 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">この端末は登録されていません。以前、おそらく別の端末で Molly に電話番号を登録したことが原因です。</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">この端末は登録されていません。以前、おそらく別の端末で Polly に電話番号を登録したことが原因です。</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">端末を再登録する</string>
 
@@ -3295,7 +3295,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">着信に出るには、Mollyにマイクへのアクセスを許可してください。</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">ビデオ通話に出るには、Molly にマイクとカメラへのアクセスを許可してください。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">ビデオ通話に出るには、Polly にマイクとカメラへのアクセスを許可してください。</string>
     <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">通話するには、Mollyにマイクとカメラへのアクセス許可が必要ですが、無効になっています。アプリ設定メニューの「アプリの権限」で「マイク」と「カメラ」を有効にしてください。</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">リンクした端末で応答しました。</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">リンクした端末で拒否しました。</string>
@@ -3671,7 +3671,7 @@
     <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
     <string name="EditProfileFragment_deprecated_dialog_title">Mollyをアップデートしてください</string>
     <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">このバージョンの Molly は期限が切れています。引き続きご利用いただくために、Molly をアップデートしてください。</string>
+    <string name="EditProfileFragment_deprecated_dialog_body">このバージョンの Polly は期限が切れています。引き続きご利用いただくために、Polly をアップデートしてください。</string>
     <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">アップデートする</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
@@ -3719,15 +3719,15 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Encryption was auto-verified for this chat</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Molly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Polly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Auto-verification is no longer available for this chat</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Auto-verification not available for this chat</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
 
     <!-- Title for auto verification education sheet -->
     <string name="VerifyAutomaticallyEducationSheet__title">Mollyは、エンドツーエンドの暗号化を自動で確認するようになりました</string>
@@ -5678,7 +5678,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">ライセンス</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">使用条件とプライバシーポリシー</string>
-    <string name="HelpFragment__copyright_signal_messenger">Copyright Molly Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Copyright Polly Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licensed under the GNU AGPLv3</string>
     <!-- Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="HelpSettingsFragment__signal_is_a_501c3">Signal is a 501c3 nonprofit</string>
@@ -6158,7 +6158,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">Mollyをアップデートしてください</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">このバージョンの Molly は期限が切れています。引き続きご利用いただくために、Molly をアップデートしてください。</string>
+    <string name="UpdateSignalExpiredDialog__message">このバージョンの Polly は期限が切れています。引き続きご利用いただくために、Polly をアップデートしてください。</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">アップデートする</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -6167,7 +6167,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">端末が登録されていません</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">この端末は登録されていません。この端末で Molly を引き続きご利用になるには、再登録が必要です。</string>
+    <string name="ReregisterSignalDialog__message">この端末は登録されていません。この端末で Polly を引き続きご利用になるには、再登録が必要です。</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">再登録する</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->

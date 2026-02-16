@@ -43,7 +43,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly 업데이트 중…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly 업데이트 중…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">아직 암호 문구가 설정되지 않았어요.</string>
@@ -321,7 +321,7 @@
     <string name="CameraContacts_no_signal_contacts">Signal 연락처 없음</string>
     <string name="CameraContacts_you_can_only_use_the_camera_button">카메라 버튼은 Signal 연락처에 사진을 보내는 용도로만 사용할 수 있습니다. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">원하는 사람을 찾지 못하셨나요?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Molly 가입 초대하기</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Polly 가입 초대하기</string>
     <string name="CameraContacts__menu_search">검색</string>
 
     <!-- Censorship Circumvention Megaphone -->
@@ -335,12 +335,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">괜찮아요</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Molly 업데이트</string>
+    <string name="ClientDeprecatedActivity_update_signal">Polly 업데이트</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">이 앱 버전은 더 이상 지원되지 않습니다. 메시지를 주고받으려면 최신 버전으로 업데이트해 주세요.</string>
     <string name="ClientDeprecatedActivity_update">업데이트</string>
     <string name="ClientDeprecatedActivity_dont_update">업데이트하지 않음</string>
     <string name="ClientDeprecatedActivity_warning">경고</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Molly 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Polly 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">웹 브라우저를 찾을 수 없습니다.</string>
@@ -362,7 +362,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">계정을 새 기기로 이전할까요?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">이 계정을 새로운 기기로 이전하려면 \'계속\'을 탭한 다음 Molly 카메라로 QR 코드를 다시 스캔하세요. Molly에서 직접 제공한 QR 코드만 스캔하세요.</string>
+    <string name="CommunicationActions__transfer_dialog_message">이 계정을 새로운 기기로 이전하려면 \'계속\'을 탭한 다음 Polly 카메라로 QR 코드를 다시 스캔하세요. Molly에서 직접 제공한 QR 코드만 스캔하세요.</string>
     <string name="CommunicationActions__dont_transfer">이전 안 함</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -386,8 +386,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">%1$s에 메시지 보내기</string>
-    <string name="ContactsDatabase_signal_call_s">Molly 음성 통화 %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly 영상 통화 %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly 음성 통화 %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly 영상 통화 %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -624,13 +624,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">차단함</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Molly 업데이트</string>
+    <string name="ConversationFragment__update_build">Polly 업데이트</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Molly 다시 등록</string>
+    <string name="ConversationFragment__reregister_signal">Polly 다시 등록</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">돌아가기</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Molly 열기</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Polly 열기</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">인증이 해제되었어요</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -1122,7 +1122,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">다른 기기에서 연결 완료</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">다른 기기에서 Molly 연결을 완료하세요.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">다른 기기에서 Polly 연결을 완료하세요.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">기기 연결 실패</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1172,7 +1172,7 @@
     <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">기기에서는 Play Services를 지원하지 않습니다. 탭하여 시스템 배터리 최적화 기능을 사용하지 않을 수 있습니다. 해당 기능은 Molly이 비활성화된 동안에 메시지를 검색하지 못하게 합니다.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Molly 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Polly 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
     <string name="ExpiredBuildReminder_update_now">지금 업데이트하세요.</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
@@ -1181,7 +1181,7 @@
     <!-- Title of notification telling users to update Signal -->
     <string name="DeprecatedNotificationJob_update_signal">시그널 최신 버전으로 업데이트</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">이 Molly 버전은 만료되었습니다. 메시지를 주고받으려면 탭하여 업데이트하세요.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">이 Polly 버전은 만료되었습니다. 메시지를 주고받으려면 탭하여 업데이트하세요.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1325,12 +1325,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">배터리 최적화로 인해 알림이 지연될 수 있습니다.</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Molly 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 할 수 있습니다.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Polly 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 할 수 있습니다.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">배터리 최적화로 인해 알림이 지연될 수 있습니다.</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Molly 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 하세요. \'계속\'을 탭하여 기기별 지침을 확인하세요.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Polly 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 하세요. \'계속\'을 탭하여 기기별 지침을 확인하세요.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">아니요</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1339,7 +1339,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">메시지 수신에 문제가 있을 수 있어요</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">기기를 다시 시작하면 메시지 전송 문제를 해결하는 데 도움이 될 수 있습니다. 문제가 계속되면 Molly 지원팀에 문의해 주세요.</string>
+    <string name="ConnectivityWarningBottomSheet_body">기기를 다시 시작하면 메시지 전송 문제를 해결하는 데 도움이 될 수 있습니다. 문제가 계속되면 Polly 지원팀에 문의해 주세요.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">확인</string>
 
@@ -1482,7 +1482,7 @@
     <!-- Dialog title displayed when remote restore failed because of an outdated backup version. -->
     <string name="RemoteRestoreActivity__couldnt_restore">이 백업을 복원할 수 없음</string>
     <!-- Dialog message explaining that an update to Signal is required to restore the backup. -->
-    <string name="RemoteRestoreActivity__update_latest">이 Molly 버전은 백업을 복원할 수 없습니다. 최신 버전으로 업데이트하고 다시 시도하세요.</string>
+    <string name="RemoteRestoreActivity__update_latest">이 Polly 버전은 백업을 복원할 수 없습니다. 최신 버전으로 업데이트하고 다시 시도하세요.</string>
     <!-- Text on button that when pressed will redirect them to update Signal -->
     <string name="RemoteRestoreActivity__update_signal">시그널 최신 버전으로 업데이트</string>
     <!-- Text label button to dismiss the dialog -->
@@ -1754,10 +1754,10 @@
     <string name="MessageQuotesBottomSheet_replies">회신</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Molly 전화 연결 중</string>
+    <string name="NotificationBarManager__establishing_signal_call">Polly 전화 연결 중</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Molly 통화 서비스 시작</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Molly 통화 서비스 중지</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Polly 통화 서비스 시작</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Polly 통화 서비스 중지</string>
     <string name="NotificationBarManager__cancel_call">전화 취소</string>
 
     <!-- NotificationsMegaphone -->
@@ -2203,19 +2203,19 @@
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">지금 업데이트하세요.</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 Molly 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 Polly 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="other">이 Molly 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
+        <item quantity="other">이 Polly 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">암호 입력</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly 아이콘</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly 아이콘</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">암호 제출</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">암호 문구를 잘못 입력했습니다.</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Molly 잠금 해제</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Polly 잠금 해제</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - 잠금 화면</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - 잠금 화면</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">지도</string>
@@ -2291,7 +2291,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">내 스토리</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly 통화</string>
+    <string name="Recipient_signal_call">Polly 통화</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">차단</string>
@@ -2405,8 +2405,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">로컬 동영상 확대</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly 전화</string>
-    <string name="WebRtcCallView__signal_video_call">Molly 영상 통화</string>
+    <string name="WebRtcCallView__signal_call">Polly 전화</string>
+    <string name="WebRtcCallView__signal_video_call">Polly 영상 통화</string>
     <string name="WebRtcCallView__start_call">전화 시작하기</string>
     <string name="WebRtcCallView__join_call">전화 참여하기</string>
     <string name="WebRtcCallView__call_is_full">통화 참가자 수 최대</string>
@@ -2676,7 +2676,7 @@
     <string name="RegistrationActivity_non_standard_number_format">비표준 전화번호 형식</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">입력한 번호(%1$s)가 표준 형식이 아닙니다.\n\n혹시 입력하려던 번호가 %2$s인가요?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Molly Android - 전화번호 형식</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Polly Android - 전화번호 형식</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">통화 요청함</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2972,9 +2972,9 @@
     <string name="ThreadRecord_blocked_group">차단함</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Molly 업데이트</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">새 Molly 버전을 이용할 수 있습니다. 탭하여 업데이트하세요.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly 업데이트 실패</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Polly 업데이트</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">새 Polly 버전을 이용할 수 있습니다. 탭하여 업데이트하세요.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly 업데이트 실패</string>
     <string name="ApkUpdateNotifications_failed_general_body">나중에 다시 시도하겠습니다.</string>
     <string name="ApkUpdateNotifications_auto_update_success_title">Molly을 업데이트했습니다.</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">%1$s 버전으로 자동 업데이트되었습니다.</string>
@@ -3074,7 +3074,7 @@
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">터치하여 여세요.</string>
     <string name="KeyCachingService_passphrase_cached">Molly이 잠금 해제됨</string>
-    <string name="KeyCachingService_lock">Molly 잠금</string>
+    <string name="KeyCachingService_lock">Polly 잠금</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">나</string>
@@ -3146,7 +3146,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s 님이 \"%3$s\" 설문조사에 투표했습니다.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처에 있는 사용자가 Molly에 가입할 때 발송되는 알림을 끄시겠어요? Molly &gt; 설정 &gt; 알림에서 다시 활성화하실 수 있습니다.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처에 있는 사용자가 Molly에 가입할 때 발송되는 알림을 끄시겠어요? Polly &gt; 설정 &gt; 알림에서 다시 활성화하실 수 있습니다.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3507,7 +3507,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">도움말 풍선은 Molly 대화에서 끌 수 있는 Android 기능입니다.</string>
+    <string name="BubbleOptOutTooltip__description">도움말 풍선은 Polly 대화에서 끌 수 있는 Android 기능입니다.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">나중에</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3671,7 +3671,7 @@
     <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
     <string name="EditProfileFragment_deprecated_dialog_title">시그널 최신 버전으로 업데이트</string>
     <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">이 Molly 버전은 만료되었습니다. Molly을 계속 사용하려면 지금 업데이트하세요.</string>
+    <string name="EditProfileFragment_deprecated_dialog_body">이 Polly 버전은 만료되었습니다. Molly을 계속 사용하려면 지금 업데이트하세요.</string>
     <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">업데이트</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
@@ -3719,15 +3719,15 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Encryption was auto-verified for this chat</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Molly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Polly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Auto-verification is no longer available for this chat</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Auto-verification not available for this chat</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
 
     <!-- Title for auto verification education sheet -->
     <string name="VerifyAutomaticallyEducationSheet__title">이제 Molly이 엔드투엔드 암호화를 자동으로 확인합니다</string>
@@ -3938,7 +3938,7 @@
     <string name="preferences__slow">느리게</string>
     <string name="preferences__help">도움</string>
     <string name="preferences__advanced">고급</string>
-    <string name="preferences__donate_to_signal">Molly 후원하기</string>
+    <string name="preferences__donate_to_signal">Polly 후원하기</string>
     <!-- Preference label for making one-time donations to Signal -->
     <string name="preferences__privacy">개인 정보</string>
     <!-- Preference label for stories -->
@@ -3975,13 +3975,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">앱 아이콘과 이름을 \"%1$s\"(으)로 변경</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Molly을 종료해야 합니다. 알림은 항상 기본 Molly 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Molly을 종료해야 합니다. 알림은 항상 기본 Polly 아이콘과 이름을 표시합니다.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 Molly 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
+    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 Polly 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">앱 아이콘과 이름이 홈 화면과 앱 서랍에 표시됩니다.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 Molly 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 Polly 아이콘과 이름을 표시합니다.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">자세히 알아보기</string>
     <!--Text description of a graphic illustrating the limitations of the app icon change. -->
@@ -4166,7 +4166,7 @@
     <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Molly을 사용하여 MobileCoin을 주고받으세요. 모든 결제에는 MobileCoins와 MobileCoin Wallet의 사용 약관이 적용됩니다. 일부 문제가 발생할 수 있으며, 손실된 결제나 잔액은 복구할 수 없습니다. </string>
     <string name="PaymentsHomeFragment__activate">활성화</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin 용어 보기</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Molly 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Polly 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4286,7 +4286,7 @@
     <string name="PaymentsTransferFragment__next">다음</string>
     <string name="PaymentsTransferFragment__invalid_address">유효하지 않은 주소</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">이체하려는 지갑 주소를 확인하고 다시 시도하세요.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 Molly 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 Polly 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR 코드를 스캔하려면 Molly이 카메라에 액세스할 수 있어야 합니다.</string>
     <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Molly이 QR 코드를 캡처하려면 카메라 권한이 필요합니다. 설정으로 이동하여 \'권한\'을 선택하고 \'카메라\'를 활성화하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR 코드를 스캔하려면 Molly이 카메라에 액세스할 수 있어야 합니다.</string>
@@ -4652,17 +4652,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Molly 음성 통화 수신 중</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Polly 음성 통화 수신 중</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Molly 영상 통화 수신 중</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Polly 영상 통화 수신 중</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Molly 단체 통화 수신</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Polly 단체 통화 수신</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Molly 음성 통화 진행 중</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Polly 음성 통화 진행 중</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Molly 영상 통화 진행 중</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Polly 영상 통화 진행 중</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Molly 그룹 통화 진행 중</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Polly 그룹 통화 진행 중</string>
 
     <!-- transport_selection_list_item -->
     <string name="ConversationListFragment_loading">로드 중…</string>
@@ -4716,9 +4716,9 @@
     <string name="BackupDialog_verify">확인</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">백업 암호가 성공적으로 입력됨</string>
     <string name="BackupDialog_passphrase_was_not_correct">암호가 올바르지 않음</string>
-    <string name="LocalBackupJob_creating_signal_backup">Molly 백업 만드는 중…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Polly 백업 만드는 중…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Molly 백업을 확인하는 중…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Polly 백업을 확인하는 중…</string>
     <string name="LocalBackupJobApi29_backup_failed">백업을 실패했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">백업 경로가 삭제되었거나 이동했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">백업 파일이 너무 커서 이 볼륨에 저장할 수 없습니다.</string>
@@ -4733,8 +4733,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">전화로 받기(%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">코드 다시 보내기(%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Molly 지원 팀에 문의</string>
-    <string name="RegistrationActivity_code_support_subject">Molly 등록 - 안드로이드용 인증 코드</string>
+    <string name="RegistrationActivity_contact_signal_support">Polly 지원 팀에 문의</string>
+    <string name="RegistrationActivity_code_support_subject">Polly 등록 - 안드로이드용 인증 코드</string>
     <string name="RegistrationActivity_incorrect_code">올바르지 않은 코드</string>
     <string name="BackupUtil_never">없음</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4801,7 +4801,7 @@
     <string name="Beta__this_is_beta">이 기능은 베타 단계이며, 앞으로 지속적으로 개선될 예정입니다.</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Molly 잠금 해제</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Polly 잠금 해제</string>
     <!-- Description text explaining how to unlock Signal -->
     <string name="prompt_passphrase_activity__use_your_android_device">Molly을 잠금 해제하려면 Android 기기 잠금 설정을 사용하세요.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
@@ -4831,9 +4831,9 @@
     <!-- Option text explaining that screen lock should start at a custom time set by the user -->
     <string name="ScreenLockSettingsFragment__custom_time">맞춤 시간</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn on screen lock -->
-    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Molly 화면 잠금 사용</string>
+    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Polly 화면 잠금 사용</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn off screen lock -->
-    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Molly 화면 잠금 해제</string>
+    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Polly 화면 잠금 해제</string>
 
     <string name="Recipient_unknown">알 수 없음</string>
     <!-- Name to use for a user across the UI when they are unregistered and have no other name available -->
@@ -5678,7 +5678,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">라이선스</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">이용 약관 &amp; 개인 정보 보호 정책</string>
-    <string name="HelpFragment__copyright_signal_messenger">Molly Messenger 저작권</string>
+    <string name="HelpFragment__copyright_signal_messenger">Polly Messenger 저작권</string>
     <string name="HelpFragment__licenced_under_the_agplv3">GNU AGPLv3에 따라 라이선스가 부여됨</string>
     <!-- Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="HelpSettingsFragment__signal_is_a_501c3">Signal is a 501c3 nonprofit</string>
@@ -6158,7 +6158,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">시그널 최신 버전으로 업데이트</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">이 Molly 버전은 만료되었습니다. Molly을 계속 사용하려면 지금 업데이트하세요.</string>
+    <string name="UpdateSignalExpiredDialog__message">이 Polly 버전은 만료되었습니다. Molly을 계속 사용하려면 지금 업데이트하세요.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">업데이트</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->

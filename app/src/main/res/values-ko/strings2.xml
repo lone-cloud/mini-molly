@@ -21,7 +21,7 @@
     <string name="preferences_network__connecting">연결 중…</string>
     <string name="preferences__network">네트워크</string>
     <string name="preferences_network__connection">연결</string>
-    <string name="preferences__autoupdate_molly">Molly 자동 업데이트</string>
+    <string name="preferences__autoupdate_molly">Polly 자동 업데이트</string>
     <string name="BlockUnblockDialog_delete_this_contact">이 연락처를 삭제할까요?</string>
     <string name="arrays__none">없음</string>
     <string name="preferences__block_unknown">모르는 유저를 차단하기</string>
@@ -96,7 +96,7 @@
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">업데이트가 가능하면 알림을 받을 것입니다</string>
     <string name="BiometricDialogFragment__biometric_verification">생체 인식</string>
     <string name="LinkDeviceFragment__use_molly_on_another_devices">다른 기기에서 Molly를 사용하세요. 메시지가 연결된 기기와 동기화됩니다.</string>
-    <string name="LinkDeviceFragment__molly_on_another_device">다른 기기의 Molly</string>
+    <string name="LinkDeviceFragment__molly_on_another_device">다른 기기의 Polly</string>
     <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly는 데스크톱이나 iPad의 Signal 뿐만 아니라, Molly를 사용하는 다른 안드로이드 기기와의 연결을 지원합니다.</string>
     <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">안드로이드 기기라면: Molly를 설치하기 위해 %s을 방문하세요.</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">새로운 업데이트를 주기적으로 확인하고 설치를 요청합니다</string>
@@ -111,7 +111,7 @@
     <string name="RegistrationActivity_link_error">기기 연결 중 오류가 발생했습니다. 네트워크 연결을 확인하고 재시도하세요</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">모든 연결된 기기의 메시지는 비공개됩니다.</string>
     <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">연결되면 새로운 메시지들은 기기 간에 동기화됩니다. 이전 메시지 내역은 이전되지 않습니다.</string>
-    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Molly 접근을 지문 또는 얼굴 인식으로 잠그기</string>
+    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Polly 접근을 지문 또는 얼굴 인식으로 잠그기</string>
     <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">PIN 설정은 연결된 기기에서 변경할 수 없습니다</string>
     <string name="DeviceListItem_device_d">기기 #%d</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">마지막 확인: %s</string>

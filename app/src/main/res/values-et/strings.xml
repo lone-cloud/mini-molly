@@ -93,7 +93,7 @@
     <string name="AttachmentKeyboard_location">Asukoht</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Küsitlus</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Molly vajab sinu fotode ja videote näitamiseks luba</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Polly vajab sinu fotode ja videote näitamiseks luba</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Luba ligipääs</string>
     <string name="AttachmentKeyboard_payment">Makse</string>
@@ -114,9 +114,9 @@
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Ei leia rakendust meediafaili valimiseks.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Molly vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Polly vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Anna ligipääs oma asukohale</string>
@@ -125,13 +125,13 @@
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">Oma asukoha saatmiseks anna Mollyile luba.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Sinu asukoha saatmiseks vajab Molly ligipääsu asukohale.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Sinu asukoha saatmiseks vajab Polly ligipääsu asukohale.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Luba ligipääs salvestusruumile</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Fotode ja videote näitamiseks:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Molly vajab su fotode ja videote näitamiseks ligipääsu.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Polly vajab su fotode ja videote näitamiseks ligipääsu.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s ei ole makseid aktiveerinud </string>
@@ -295,13 +295,13 @@
     <!-- Text explaining why Signal needs microphone access to take videos -->
     <string name="CameraXFragment_to_capture_videos_with_sound">Heliga videote salvestamiseks anna Mollyile ligipääs mikrofonile.</string>
     <!-- Text explaining why Signal needs camera access to scan QR codes -->
-    <string name="CameraXFragment_to_scan_qr_code_allow_camera">QR-koodi skannimiseks vajab Molly ligipääsu kaamerale.</string>
+    <string name="CameraXFragment_to_scan_qr_code_allow_camera">QR-koodi skannimiseks vajab Polly ligipääsu kaamerale.</string>
     <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
     <string name="CameraXFragment_signal_needs_camera_access_capture_photos">Mollyil on fotode tegemiseks vaja ligipääsu kaamerale</string>
     <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
-    <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">Molly vajab QR-koodide skannimiseks ligipääsu kaamerale</string>
+    <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">Polly vajab QR-koodide skannimiseks ligipääsu kaamerale</string>
     <!-- Toast dialog explaining why Signal needs microphone permissions -->
-    <string name="CameraXFragment_signal_needs_microphone_access_video">Molly vajab video salvestamiseks ligipääsu mikrofonile</string>
+    <string name="CameraXFragment_signal_needs_microphone_access_video">Polly vajab video salvestamiseks ligipääsu mikrofonile</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
     <string name="CameraXFragment_to_capture_photos">Fotode tegemiseks Mollyis:</string>
     <!-- Dialog description that explains the steps needed to give camera and microphone permission -->
@@ -508,16 +508,16 @@
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Häälsõnumite saatmiseks luba Mollyil kasutada oma mikrofoni.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Molly vajab häälsõnumi salvestamiseks ligipääsu mikrofonile.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Molly vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Polly vajab häälsõnumi salvestamiseks ligipääsu mikrofonile.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Polly vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
 
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Molly vajab kasutajale %1$s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Polly vajab kasutajale %1$s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Luba Mollyile ligipääs kaamerale fotode ja videote salvestamiseks.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Molly vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Molly vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Polly vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Polly vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Luba mikrofoni kasutus, et teha heliga videoid.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Molly vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Molly vajab videote salvestamiseks mikrofoniluba.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Polly vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Polly vajab videote salvestamiseks mikrofoniluba.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_no">Ei</string>
@@ -540,7 +540,7 @@
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
     <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Kõne alustamiseks anna Mollyile juurdepääs mikrofonile.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Molly vajab kõne alustamiseks ligipääsu mikrofonile.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Polly vajab kõne alustamiseks ligipääsu mikrofonile.</string>
 
 
     <string name="ConversationActivity_join">Liitu</string>
@@ -636,11 +636,11 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">Uuenda Mollyit</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Registreeri Molly uuesti</string>
+    <string name="ConversationFragment__reregister_signal">Registreeri Polly uuesti</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Liigu tagasi</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Ava Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Ava Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Ei ole enam kinnitatud</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -707,7 +707,7 @@
     <!-- Title of tip 0 -->
     <string name="SafetyTips_tip0_title">Valenimed ja -kontod</string>
     <!-- Message of tip 0 -->
-    <string name="SafetyTips_tip0_message">Molly ei võta sinuga kunagi ühendust registreerimiskoodi või PIN-koodi küsimiseks. Ole ettevaatlik taotluste suhtes, kus esinetakse kellegi teisena. Profiilinimed valib iga konto omanik ise ja need ei ole kinnitatud.</string>
+    <string name="SafetyTips_tip0_message">Polly ei võta sinuga kunagi ühendust registreerimiskoodi või PIN-koodi küsimiseks. Ole ettevaatlik taotluste suhtes, kus esinetakse kellegi teisena. Profiilinimed valib iga konto omanik ise ja need ei ole kinnitatud.</string>
     <!-- Title of tip 1 -->
     <string name="SafetyTips_tip1_title">Krüpto- või rahapettused</string>
     <!-- Message of tip 1 -->
@@ -948,7 +948,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">Siiani %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s/ %% …</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Molly vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Polly vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Vali varukoopia tegemise aeg</string>
 
@@ -1030,7 +1030,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Vestluse seanss on värskendatud</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -2264,7 +2264,7 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Lingid Signali seadme?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Lauaarvuti või iPadi linkimiseks selle Signali kontoga ava jaotis Lingitud seadmed, toksa valikut „Lingi uus seade“ ja skanni QR-kood uuesti. Veendu, et skannid vaid otse Signalilt saadud QR-koode.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Molly vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Polly vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
 
     <!-- OutdatedBuildReminder -->
@@ -2280,9 +2280,9 @@
     <string name="PassphrasePromptActivity_watermark_content_description">Mollyi ikoon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Saada salasõna</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Sobimatu salasõna!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Lukusta Molly lahti</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Lukusta Polly lahti</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android: ekraanilukk</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android: ekraanilukk</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Kaart</string>
@@ -2395,9 +2395,9 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Klõpsa siia enda video käivitamiseks</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Molly vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Polly vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Helistamine…</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
     <string name="WebRtcCallActivity__reconnecting">Ühenduse taastamine…</string>
@@ -2464,7 +2464,7 @@
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
     <string name="WebRtcCallActivity__to_enable_video_allow_camera">Oma video lubamiseks anna Mollyile ligipääs oma kaamerale.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Molly vajab kõne alustamiseks või sellega liitumiseks mikrofoniluba.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Polly vajab kõne alustamiseks või sellega liitumiseks mikrofoniluba.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
     <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Mollyil on sinu video lubamiseks vaja ligipääsu kaamerale</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
@@ -2765,7 +2765,7 @@
     <string name="RegistrationActivity_non_standard_number_format">Ebastandardne numbriformaat</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Sisestatud number (%1$s) tundub olevat mittestandardses formaadis.\n\nKas mõtlesid hoopis %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Molly Android - telefoninumbri formaat</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Polly Android - telefoninumbri formaat</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Kõnepäring esitatud</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -3070,7 +3070,7 @@
     <string name="ApkUpdateNotifications_prompt_install_body">Mollyi uus versioon on saadaval. Toksa uuendamiseks.</string>
     <string name="ApkUpdateNotifications_failed_general_title">Mollyi uuendamine ebaõnnestus</string>
     <string name="ApkUpdateNotifications_failed_general_body">Proovime hiljem uuesti.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly on edukalt uuendatud</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly on edukalt uuendatud</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Sinu versioon on automaatselt uuendatud versioonile %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Uuendasid versioonile %1$s.</string>
 
@@ -3142,7 +3142,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Meie Signali turvanumber:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Tundub, et sul pole ühtegi rakendust, kuhu jagada.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Lõikelaualt ei leitud turvanumbrit, millega võrrelda</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Molly vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Polly vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Kasutaja %1$s turvanumbri nägemiseks pead kõigepealt temaga sõnumeid vahetama.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -3168,8 +3168,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Koputa avamiseks.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly on avatud</string>
-    <string name="KeyCachingService_lock">Lukusta Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly on avatud</string>
+    <string name="KeyCachingService_lock">Lukusta Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Sina</string>
@@ -3243,7 +3243,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s vastas küsitlusele „%3$s“</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Mollyiga liitumise teavitused välja? Neid saab uuesti lubada, valides Molly &gt; Seaded &gt; Teavitused.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Mollyiga liitumise teavitused välja? Neid saab uuesti lubada, valides Polly &gt; Seaded &gt; Teavitused.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3284,7 +3284,7 @@
     <string name="NotificationChannel_new_linked_device">Uus lingitud seade</string>
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Molly on lukustatud!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Polly on lukustatud!</string>
     <string name="QuickResponseService_problem_sending_message">Sõnumi saatmisel esines probleem!</string>
 
     <!-- A toast notification that is shown when the app does not have sufficient permissions to save media files to the device storage. -->
@@ -3319,7 +3319,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
@@ -3398,7 +3398,7 @@
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Kõnele vastamiseks anna Mollyile juurdepääs mikrofonile.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Videokõnele vastamiseks anna Mollyile juurdepääs oma mikrofonile ja kaamerale.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Molly vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Polly vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Vastatud ühendatud seadmes.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Keeldutud ühendatud seadmes.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Hõivatud ühendatud seadmes.</string>
@@ -3472,7 +3472,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Kontakti pilt</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Molly vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Polly vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kontaktide laadimisel tekkis tõrge. Kontrolli võrguühendust.</string>
     <string name="ContactSelectionListFragment_username_not_found">Kasutajanime ei leitud</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"„%1$s“ ei ole Signali kasutaja. Palun kontrolli kasutajanime ja proovi uuesti."</string>
@@ -3501,7 +3501,7 @@
     <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Anna ligipääs oma kontaktidele. Sinu kontaktid on krüptitud ega ole Signali teenusele nähtavad.</string>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Molly vajab kontaktide kuvamiseks nendele ligipääsu.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Polly vajab kontaktide kuvamiseks nendele ligipääsu.</string>
     <string name="contact_selection_list_fragment__show_contacts">Näita kontakte</string>
 
     <!-- contact_selection_list_item -->
@@ -3831,20 +3831,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Encryption was auto-verified for this chat</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Molly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_success">For contacts you’re connected to by phone number, Polly can automatically confirm whether the connection is secure using a process called key transparency. For added security, verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Auto-verification is no longer available for this chat</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly can no longer automatically verify the encryption for this chat. This is likely because %1$s changed their phone number. Verify end-to-end encryption manually by comparing the numbers on the previous screen or scanning the code on their device.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Auto-verification not available for this chat</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly can only automatically verify the encryption in chats where you’re connected to someone via a phone number. If the chat was started with a username or a group in common, verify end-to-end encryption by comparing the numbers on the previous screen or scanning the code on their device.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly kontrollib nüüd automaatselt otspunktkrüptimist</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly kontrollib nüüd automaatselt otspunktkrüptimist</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Turvanumbri kontrollimisel kinnitab Molly automaatselt, kas ühendus on turvaline, kasutades protsessi nimega võtme läbipaistvus. Ühendusi saab endiselt kinnitada ka käsitsi QR-koodi või numbri abil.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Turvanumbri kontrollimisel kinnitab Polly automaatselt, kas ühendus on turvaline, kasutades protsessi nimega võtme läbipaistvus. Ühendusi saab endiselt kinnitada ka käsitsi QR-koodi või numbri abil.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Rohkem teavet</string>
     <!-- Button to go to verification page -->
@@ -4188,7 +4188,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Tsensuuri vältimine</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Tsensuuri vältimine</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Kui on lubatud, siis püüab Molly tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Molly on tsenseeritud.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Kui on lubatud, siis püüab Polly tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Polly on tsenseeritud.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Tsenseerimisest möödahiilimine on aktiveeritud sinu konto telefoninumbri järgi.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -4309,7 +4309,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Õiguste lubamine</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Selleks, et sul oleks lihtsam tuttavatele sõnumeid saata, küsib Molly järgmisi nõusolekuid. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Selleks, et sul oleks lihtsam tuttavatele sõnumeid saata, küsib Polly järgmisi nõusolekuid. </string>
     <!-- Notifications permission row title -->
     <string name="GrantPermissionsFragment__notifications">Teavitused</string>
     <!-- Notifications permission row description -->
@@ -4402,9 +4402,9 @@
     <string name="PaymentsTransferFragment__invalid_address">Vigane aadress</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Kontrolli walleti aadressi, millele üritad ülekannet teha, ning proovi uuesti.</string>
     <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Sa ei saa teha ülekannet omaenda Mollyi walleti aadressile. Sisesta oma kontolt walleti aadress toetatud vahetuskeskuses.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR-koodi skannimiseks vajab Molly ligipääsu kaamerale.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR-koodi skannimiseks vajab Molly luba kaamera kasutamiseks. Mine sätetesse, vali \"Load\" ning märgi \"Kaamera\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR-koodi skannimiseks vajab Molly ligipääsu kaamerale.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR-koodi skannimiseks vajab Polly ligipääsu kaamerale.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR-koodi skannimiseks vajab Polly luba kaamera kasutamiseks. Mine sätetesse, vali \"Load\" ning märgi \"Kaamera\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR-koodi skannimiseks vajab Polly ligipääsu kaamerale.</string>
     <string name="PaymentsTransferFragment__settings">Sätted</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -4925,11 +4925,11 @@
     <string name="Beta__this_is_beta">See on beetafunktsioon ja seda täiustatakse aja jooksul.</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Lukusta Molly lahti</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Lukusta Polly lahti</string>
     <!-- Description text explaining how to unlock Signal -->
     <string name="prompt_passphrase_activity__use_your_android_device">Kasuta Mollyi avamiseks Android-seadme lukustussätteid.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Ekraanilukk on sisse lülitatud ning Molly on sinu seadme lukustussätete abil turvatud. Ava Molly samamoodi nagu tavaliselt telefoni avad, nt näotuvastuse, sõrmejäljega avamise, PIN-koodi, parooli või mustri abil.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Ekraanilukk on sisse lülitatud ning Polly on sinu seadme lukustussätete abil turvatud. Ava Polly samamoodi nagu tavaliselt telefoni avad, nt näotuvastuse, sõrmejäljega avamise, PIN-koodi, parooli või mustri abil.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Võta ühendust kasutajatoega</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -5011,19 +5011,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Valmistun ühenduma vanasse Android-seadmesse…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">See võtab hetke aega, peaks varsti valmis olema</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Ootan vana Android-seadme ühendumist…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Molly vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Molly vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Molly vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Molly kasutab Wi-Fi Directi sinu vana Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad taastada oma konto vanast seadmest ka varukoopia kaudu.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Polly vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Polly vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Polly vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Polly kasutab Wi-Fi Directi sinu vana Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad taastada oma konto vanast seadmest ka varukoopia kaudu.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Taasta varukoopia</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Sinu vana Android-seadmega ühenduse loomisel tekkis ootamatu tõrge.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Uue Android-seadme otsimine…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Molly vajab sinu uue Android-seadmega ühenduse loomiseks asukoha kasutamise luba.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Molly vajab sinu uue Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Molly vajab sinu uue Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Molly kasutab Wi-Fi Directi sinu uue Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad luua oma konto taastamiseks uues seadmes ka varukoopia.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Polly vajab sinu uue Android-seadmega ühenduse loomiseks asukoha kasutamise luba.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Polly vajab sinu uue Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Polly vajab sinu uue Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Polly kasutab Wi-Fi Directi sinu uue Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad luua oma konto taastamiseks uues seadmes ka varukoopia.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Loo varukoopia</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Sinu uue Android-seadmega ühenduse loomisel tekkis ootamatu tõrge.</string>
 
@@ -5066,7 +5066,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Andmete ülekandmine</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hoia seadmeid teineteise lähedal. Ära lülita seadmeid välja ja hoia Molly avatuna. Ülekandmine on otspunktkrüptitud.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hoia seadmeid teineteise lähedal. Ära lülita seadmeid välja ja hoia Polly avatuna. Ülekandmine on otspunktkrüptitud.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d sõnumit siiani…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% sõnumitest…</string>
@@ -5080,7 +5080,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Kanna konto üle</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi Molly alla uues Android-seadmes</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi Polly alla uues Android-seadmes</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Toksa \"Konto ülekandmine või taastamine\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -5815,7 +5815,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">Litsentsid</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Tingimused ja privaatsuspoliitika</string>
-    <string name="HelpFragment__copyright_signal_messenger">Autoriõigus Molly Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Autoriõigus Polly Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Litsentsitud GNU AGPLv3 litsentsiga</string>
     <!-- Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="HelpSettingsFragment__signal_is_a_501c3">Signal is a 501c3 nonprofit</string>
@@ -6632,7 +6632,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Valija avamine nurjus.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Teavituste näitamiseks vajab Molly nende kuvamise luba.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Teavituste näitamiseks vajab Polly nende kuvamise luba.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Lülita sisse</string>
 
@@ -8619,7 +8619,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Hoia oma võtit turvaliselt</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Kui oma võtme ära kaotad, ei saa Molly aidata sul varukoopiat taastada. Hoia seda turvalises kohas ning ära jaga teistega.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Kui oma võtme ära kaotad, ei saa Polly aidata sul varukoopiat taastada. Hoia seda turvalises kohas ning ära jaga teistega.</string>
     <!-- Checkbox label -->
     <string name="MessageBackupsKeyRecordScreen__ive_recorded_my_key">Olen oma võtme üles kirjutanud</string>
     <!-- Sheet action button label -->

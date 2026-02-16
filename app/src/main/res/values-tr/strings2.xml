@@ -13,7 +13,7 @@
     <string name="ChangePassphraseDialogFragment_weak_passphrase">Zayıf parola!</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">Veri tabanı şifrelemeyi aç</string>
     <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Molly\'nin kilidini açmak için parola gereksin mi\?</string>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Artık veri tabanını şifrelemek için bir parola belirleyebilirsiniz. Kilidi açılana kadar, Molly bildirim veya çağrı alamaz. Bu, kaybolan veya çalınan aygıtlardaki verilerin korunmasına yardımcı olur.</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Artık veri tabanını şifrelemek için bir parola belirleyebilirsiniz. Kilidi açılana kadar, Polly bildirim veya çağrı alamaz. Bu, kaybolan veya çalınan aygıtlardaki verilerin korunmasına yardımcı olur.</string>
     <string name="preferences__passphrase_changed">Parola değiştirildi</string>
     <string name="preferences__protect_molly_database_with_a_passphrase">Molly\'nin veri tabanını bir parola ile koruyun</string>
     <string name="preferences__passphrase_lock">Veri tabanı şifreleme</string>
@@ -39,7 +39,7 @@
     <string name="preferences__network">Ağ</string>
     <string name="arrays__none">Hiçbiri</string>
     <string name="NetworkPreferenceFragment_the_host_you_typed_is_not_valid">Yazdığınız ana makine geçerli değil</string>
-    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Orbot bu aygıtta kurulu değil, Molly Orbot olmadan bağlanmayacaktır.</string>
+    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Orbot bu aygıtta kurulu değil, Polly Orbot olmadan bağlanmayacaktır.</string>
     <string name="NetworkPreferenceFragment_get_orbot">Orbot\'u edinin</string>
     <string name="NetworkPreferenceFragment_missing_orbot_app">Orbot uygulaması yok</string>
     <string name="ProxyManager_successfully_started_orbot">Orbot başlatıldı</string>
@@ -51,7 +51,7 @@
     <string name="preferences_network__online">Çevrim içi</string>
     <string name="preferences_network__connecting">Bağlanıyor…</string>
     <string name="preferences_network__check_connection">Bağlantıyı denetle</string>
-    <string name="DonateMegaphone_molly_is_free_software">Molly özgür bir yazılımdır</string>
+    <string name="DonateMegaphone_molly_is_free_software">Polly özgür bir yazılımdır</string>
     <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">Molly\'yi sizin desteğinizle geliştiriyoruz! Open Collective\'de bağış yapmayı düşünün.</string>
     <string name="BlockUnblockDialog_block_and_delete">Engelle ve Sil</string>
     <string name="BackupsPreferenceFragment__number_of_backups_to_retain">Tutulacak yedekleme sayısı</string>
@@ -71,10 +71,10 @@
     <string name="preferences__include_beta_updates">Beta güncellemelerini dahil et</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Beta sürümleri test amaçlıdır ve hatalar içerebilir</string>
     <string name="PrivacySettingsFragment__please_first_setup_your_biometrics_in_android_settings">Lütfen önce Android ayarlarında biyometrik özelliklerinizi ayarlayın</string>
-    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Lütfen Molly\'yi kullananın gerçekten siz olduğunu onaylayın</string>
+    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Lütfen Polly\'yi kullananın gerçekten siz olduğunu onaylayın</string>
     <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Bu aygıtta biyometrik özellik yok</string>
     <string name="BiometricDialogFragment__biometric_verification">Biyometrik doğrulama</string>
-    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Molly erişimini parmak izi veya yüz tanıma ile kilitleyin</string>
+    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Polly erişimini parmak izi veya yüz tanıma ile kilitleyin</string>
     <string name="BioTextPreference_no_linked_devices">Bağlı aygıt yok</string>
     <plurals name="BioTextPreference_n_linked_devices">
         <item quantity="one">%d bağlı aygıt</item>
@@ -83,7 +83,7 @@
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Güncellemeler otomatik denetlensin mi\?</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">Güncellemeleri denetle</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Güncellemeler olduğunda bilgilendirileceksiniz</string>
-    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Molly belirli aralıklarla yeni sürümleri denetleyebilir ve sizden bunları kurmanızı isteyebilir.</string>
+    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Polly belirli aralıklarla yeni sürümleri denetleyebilir ve sizden bunları kurmanızı isteyebilir.</string>
     <string name="Megaphones_turn_on_stories">Hikayeleri etkinleştir</string>
     <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s Signal ile kayıtlı değil</string>
     <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
@@ -110,11 +110,11 @@
     <string name="preferences_appearance__toggle_to_show_or_hide_the_icon_on_the_navigation_bar">Gezinme çubuğundaki simgeyi göstermek veya gizlemek için değiştirin</string>
     <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Güncellemeler için lütfen uygulama mağazanıza bakın. Bu sürüm uygulama içi güncelleyici içermez.</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">Son denetleme: %s</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly kilitli</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly kilitli</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Mesajlaşma, bağlı tüm aygıtlarda özeldir.</string>
-    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly, Signal çalıştıran masaüstü ve iPad\'lerin yanı sıra Molly çalıştıran diğer Android aygıtlarla bağlantıyı da destekler.</string>
-    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android aygıtlar için: Molly kurmak için %s adresini ziyaret edin.</string>
+    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly, Signal çalıştıran masaüstü ve iPad\'lerin yanı sıra Polly çalıştıran diğer Android aygıtlarla bağlantıyı da destekler.</string>
+    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android aygıtlar için: Polly kurmak için %s adresini ziyaret edin.</string>
     <string name="LinkDeviceFragment__use_molly_on_another_devices">Molly\'yi başka bir aygıtta kullanın. Mesajlarınız bağlı aygıtlarınızla eşzamanlanacaktır.</string>
-    <string name="LinkDeviceFragment__molly_on_another_device">Başka bir aygıtta Molly</string>
+    <string name="LinkDeviceFragment__molly_on_another_device">Başka bir aygıtta Polly</string>
     <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Bir kere bağlandığında, yeni mesajlar aygıtlar arasında eşzamanlanır, ancak önceki mesaj geçmişi aktarılmayacaktır.</string>
 </resources>

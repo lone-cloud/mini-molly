@@ -2,7 +2,7 @@
 <resources>
     <string name="AppProtectionPreferenceFragment_instant">உடனடி</string>
     <string name="BlockUnblockDialog_block_and_delete">தடுமற்றும் அழி</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly பூட்டப்பட்டுள்ளது</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly பூட்டப்பட்டுள்ளது</string>
     <string name="preferences__include_beta_updates">பீட்டா புதுப்பிப்புகளைச் சேர்க்கவும்</string>
     <string name="preferences__map_satellite">செயற்கைக் கோள்</string>
     <string name="preferences_network__online">ஆன்லைனில்</string>

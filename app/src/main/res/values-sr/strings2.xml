@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="BlockUnblockDialog_block_and_delete">Блокирај и избриши</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly је закључан</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly је закључан</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Бета верзије су намењене за тестирање и могу садржати грешке</string>
     <string name="preferences_network__online">На мрежи</string>
     <string name="RegistrationActivity_network_settings">Подешавања мреже</string>

@@ -357,7 +357,7 @@
         android:name="org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity"
         android:label="wallpaper_activity" />
 
-    <!-- App Icon settings and Subpages -->
+    <!-- App icon settings and Subpages -->
 
     <fragment
         android:id="@+id/appIconSelectionFragment"

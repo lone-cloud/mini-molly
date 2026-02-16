@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="BlockUnblockDialog_block_and_delete">چەكلە ۋە ئۆچۈر</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly قۇلۇپلاندى</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly قۇلۇپلاندى</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">سىناق نەشرى سىناش مەقسىتىدە ئىشلىتىلىدۇ، كەمتۈكلۈك بار بولۇشى مۇمكىن</string>
     <string name="PrivacySettingsFragment_data_at_rest">سانلىق مەلۇمات كۈتۈۋاتىدۇ</string>
-    <string name="preferences__protect_molly_database_with_a_passphrase">Molly ساندانىنى شىفىر ئىبارىسى بىلەن قوغدايدۇ</string>
+    <string name="preferences__protect_molly_database_with_a_passphrase">Polly ساندانىنى شىفىر ئىبارىسى بىلەن قوغدايدۇ</string>
     <string name="arrays__on_inactivity_timeout">ئەگەر ئۈسكۈنە قۇلۇپىنى ئاچماي بەلگىلىك ۋاقىت ئۆتكەندە</string>
     <string name="arrays__none">يوق</string>
     <string name="preferences__device_lock_timeout">ئۈسكۈنە قۇلۇپلاش ۋاقىت ھالقىشى</string>
@@ -17,7 +17,7 @@
     <string name="arrays__tor_via_orbot">Orbot ئارقىلىق Tor</string>
     <string name="preferences__passphrase_lock">ساندان شىفىرلاش</string>
     <string name="preferences__enable_debug_log">سازلاش خاتىرىسىنى قوزغىتىدۇ</string>
-    <string name="preferences__autoupdate_molly">Molly نى ئۆزلۈكىدىن يېڭىلايدۇ</string>
+    <string name="preferences__autoupdate_molly">Polly نى ئۆزلۈكىدىن يېڭىلايدۇ</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">يېڭى نەشرىنى قەرەللىك تەكشۈرۈپ يېڭىلاشنى سورايدۇ</string>
     <string name="preferences__include_beta_updates">سىناق نەشرى يېڭىلىنىشىنى ئۆز ئىچىگە ئالىدۇ</string>
     <string name="preferences__block_unknown">ناتونۇشلارنى توسىدۇ</string>
@@ -38,7 +38,7 @@
     <string name="WipeMemoryService_clearing_unencrypted_data_from_ram">ئەسلەكتىن شىفىرلانمىغان سانلىق مەلۇماتنى تازىلاۋاتىدۇ</string>
     <string name="preferences__block_users_youve_never_been_in_contact_with_and_who_are_not_saved_in_your_contacts">ئەزەلدىن ئالاقىلىشىپ باقمىغان ۋە ئالاقەداشقا ساقلىمىغان ئىشلەتكۈچىنى توسىدۇ.</string>
     <string name="AppProtectionPreferenceFragment_instant">شۇئان</string>
-    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">بىز Molly نى سىزنىڭ قوللىشىڭىزدا ئاسرايمىز! Open Collective غا ئىئانە قىلىشنى ئويلىشىڭ.</string>
+    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">بىز Polly نى سىزنىڭ قوللىشىڭىزدا ئاسرايمىز! Open Collective غا ئىئانە قىلىشنى ئويلىشىڭ.</string>
     <string name="ApplicationPreferencesActivity_network_summary">ۋاكالەتچى %1$s</string>
     <string name="arrays__weekly">ھەر ھەپتىدە</string>
     <string name="NetworkPreferenceFragment_a_valid_port_number_is_between_0_and_65535">ئىناۋەتلىك ئېغىز نومۇرى 0 بىلەن 65535 ئارىسىدا بولىدۇ</string>
@@ -46,7 +46,7 @@
     <string name="NetworkPreferenceFragment_missing_orbot_app">Orbot ئەپ كەم</string>
     <string name="NetworkPreferenceFragment_get_orbot">Orbot قا ئېرىش</string>
     <string name="RegistrationActivity_network_settings">تور تەڭشىكى</string>
-    <string name="DonateMegaphone_molly_is_free_software">Molly ھەقسىز يۇمشاق دېتال</string>
+    <string name="DonateMegaphone_molly_is_free_software">Polly ھەقسىز يۇمشاق دېتال</string>
     <string name="BackupsPreferenceFragment__schedule">كۈنتەرتىپ</string>
     <string name="arrays__daily">ھەر كۈنى</string>
     <string name="BackupsPreferenceFragment__change_schedule">كۈنتەرتىپ ئۆزگەرت</string>
@@ -57,22 +57,22 @@
     <string name="HelpSettingsFragment__molly_im_website">Molly.im تور بېكىتى</string>
     <string name="HelpSettingsFragment_disable_and_delete_debug_log">سازلاش خاتىرىسىنى ئۆچۈرۈپ چەكلەمدۇ؟</string>
     <string name="DeviceAddFragment__link_without_scanning">باغلانغان ئۈسكۈنە</string>
-    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Molly باغلىنىشتا Orbot قا تايىنىدۇ، بۇ ئۈسكۈنىگە Orbot ئورنىتىلمىغان.</string>
+    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Polly باغلىنىشتا Orbot قا تايىنىدۇ، بۇ ئۈسكۈنىگە Orbot ئورنىتىلمىغان.</string>
     <string name="ChangePassphraseDialogFragment_generating_keys_this_may_take_a_while">شىفىرلىق ئاچقۇچ ھاسىللاۋاتىدۇ. بۇنىڭغا ئازراق ۋاقىت كېتىشى مۇمكىن…</string>
     <string name="BlockUnblockDialog_delete_this_contact">بۇ ئالاقەداشنى ئۆچۈرەمدۇ؟</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">ساندان شىفىرلاشنى ئاچ</string>
     <string name="ChangePassphraseDialogFragment_estimated_time_to_crack_suggestion">%1$s\n\nمۆلچەرلەنگەن يېشىش ۋاقتى: %2$s.\n\nتەۋسىيە: %3$s</string>
     <string name="ChangePassphraseDialogFragment_weak_passphrase">ئاجىز ئىم ئىبارە!</string>
-    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Molly نىڭ قۇلۇپىنى ئېچىشتا ئىم ئىبارە زۆرۈرمۇ؟</string>
+    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Polly نىڭ قۇلۇپىنى ئېچىشتا ئىم ئىبارە زۆرۈرمۇ؟</string>
     <string name="ChangePassphraseDialogFragment_passphrase">ئىم ئىبارە</string>
     <string name="ConversationSettingsFragment__add_to_your_phones_contacts">ئۈسكۈنىڭىزدىكى ئالاقەداشقا قوشىدۇ</string>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">ھازىر ئىم ئىبارە تەڭشەپ سانداننى شىفىرلىيالايسىز. قۇلۇپ ئېچىلمىغۇچە، Molly تېلېفون ۋە ئۇقتۇرۇش تاپشۇرۇۋالمايدۇ. بۇ يوقالغان ياكى ئوغرىلانغان ئۈسكۈنىدىكى سانلىق مەلۇماتنى قوغداشقا ياردەم بېرىدۇ.</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">ھازىر ئىم ئىبارە تەڭشەپ سانداننى شىفىرلىيالايسىز. قۇلۇپ ئېچىلمىغۇچە، Polly تېلېفون ۋە ئۇقتۇرۇش تاپشۇرۇۋالمايدۇ. بۇ يوقالغان ياكى ئوغرىلانغان ئۈسكۈنىدىكى سانلىق مەلۇماتنى قوغداشقا ياردەم بېرىدۇ.</string>
     <string name="ChangePassphraseDialogFragment_please_choose_a_passphrase_that_will_be_used_to_locally_encrypt_your_data_this_should_be_a_strong_passphrase">يەرلىكتە سانلىق مەلۇماتلىرىڭىزنى شىفىرلاشقا ئىشلىتىدىغان ئىم ئىبارە تاللاڭ.\n\nبۇ كۈچلۈك ئىم ئىبارە بولۇشى كېرەك.</string>
     <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">باغلانغان ئۈسكۈنىدىن PIN تەڭشىكىنى ئۆزگەرتكىلى بولمايدۇ</string>
     <string name="ProxyManager_successfully_started_orbot">Orbot باشلاندى</string>
-    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Molly دوستلىرىڭىزنى ئىزدەپ ۋە ئۇچۇر يوللاشتا ئالاقەداش ۋە ۋاسىتە ئىجازىتىگە ئېھتىياجلىق. ئالاقەداشلىرىڭىز Signal نىڭ شەخسىي ئالاقەداش بايقىشىنى ئىشلىتىپ يۈكلىنىدۇ، بۇ ئۇلارنىڭ نۇقتىدىن نۇقتىغا شىفىرلىنىدىغانلىقىنى بىلدۈرىدىغان بولۇپ، Signal مۇلازىمىتىنى ھەرگىز كۆرگىلى بولمايدۇ.</string>
-    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_in_order_to_connect_with_friends">Molly دوستلىرىڭىزنى ئىزدەشتە ئالاقەداش ئىجازىتىگە ئېھتىياجلىق. ئالاقەداشلىرىڭىز Signal نىڭ شەخسىي ئالاقەداش بايقىشىنى ئىشلىتىپ يۈكلىنىدۇ، بۇ ئۇلارنىڭ نۇقتىدىن نۇقتىغا شىفىرلىنىدىغانلىقىنى بىلدۈرىدىغان بولۇپ، Signal مۇلازىمىتىنى ھەرگىز كۆرگىلى بولمايدۇ.</string>
-    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Molly زىيارىتىنى بارماق ئىزى ياكى چىراي پەرقلەندۈرۈشتە قۇلۇپلايدۇ</string>
+    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Polly دوستلىرىڭىزنى ئىزدەپ ۋە ئۇچۇر يوللاشتا ئالاقەداش ۋە ۋاسىتە ئىجازىتىگە ئېھتىياجلىق. ئالاقەداشلىرىڭىز Signal نىڭ شەخسىي ئالاقەداش بايقىشىنى ئىشلىتىپ يۈكلىنىدۇ، بۇ ئۇلارنىڭ نۇقتىدىن نۇقتىغا شىفىرلىنىدىغانلىقىنى بىلدۈرىدىغان بولۇپ، Signal مۇلازىمىتىنى ھەرگىز كۆرگىلى بولمايدۇ.</string>
+    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_in_order_to_connect_with_friends">Polly دوستلىرىڭىزنى ئىزدەشتە ئالاقەداش ئىجازىتىگە ئېھتىياجلىق. ئالاقەداشلىرىڭىز Signal نىڭ شەخسىي ئالاقەداش بايقىشىنى ئىشلىتىپ يۈكلىنىدۇ، بۇ ئۇلارنىڭ نۇقتىدىن نۇقتىغا شىفىرلىنىدىغانلىقىنى بىلدۈرىدىغان بولۇپ، Signal مۇلازىمىتىنى ھەرگىز كۆرگىلى بولمايدۇ.</string>
+    <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">Polly زىيارىتىنى بارماق ئىزى ياكى چىراي پەرقلەندۈرۈشتە قۇلۇپلايدۇ</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">يېڭىلاشنى ئۆزلۈكىدىن تەكشۈرەمدۇ؟</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">يېڭىلاش تەكشۈر</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">يېڭىلانما بولسا سىزگە ئۇقتۇرۇلىدۇ</string>
@@ -89,7 +89,7 @@
     <string name="RegistrationActivity_link_error">ئۈسكۈنىگە باغلىنىۋاتقاندا خاتالىق كۆرۈلدى. تور باغلىنىشىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ</string>
     <string name="NotificationsSettingsFragment__new_activity_while_locked">قۇلۇپلانغان ۋاقىتتىكى يېڭى پائالىيەت</string>
     <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">كەچۈرۈڭ، بۇ ئىقتىدار FCM ياكى UnifiedPush ئۇقتۇرۇش يەتكۈزۈش مۇلازىمىتى ئارقىلىق يوللىنىدۇ، نۆۋەتتە بۇلارنى ئىشلەتكىلى بولمايدۇ.</string>
-    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly باشقا Molly ئىجرا قىلىنىدىغان Android ئۈسكۈنىسى ۋە Signal ئىجرا قىلىنىدىغان ئۈستەل كومپيۇتېر ۋە iPad بىلەن باغلىنىشنى قوللايدۇ.</string>
+    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Polly باشقا Polly ئىجرا قىلىنىدىغان Android ئۈسكۈنىسى ۋە Signal ئىجرا قىلىنىدىغان ئۈستەل كومپيۇتېر ۋە iPad بىلەن باغلىنىشنى قوللايدۇ.</string>
     <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">باغلانغاندىن كېيىن، يېڭى ئۇچۇر ئۈسكۈنىلەر ئارىسىدا قەدەمداشلىنىدۇ ئەمما ئىلگىرىكى ئۇچۇر تارىخى يۆتكەلمەيدۇ.</string>
     <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Google Play مۇلازىمىتىنىڭ ئورنىتىلغان ياكى قوزغىتىلغانلىقىنى تەكشۈرۈڭ ياكى كاندىدات ئۇقتۇرۇش يەتكۈزۈش مۇلازىمىتىگە يۆتكىلىڭ.</string>
     <string name="NotificationsSettingsFragment__push_notifications">ئۇقتۇرۇش يەتكۈزۈش</string>
@@ -131,11 +131,11 @@
     <string name="NotificationsSettingsFragment__receive_notifications_for_messages_or_missed_calls_when_the_app_is_locked">ئەپ قۇلۇپلانغاندا ئۇچۇر تاپشۇرۇۋېلىش ياكى ئالمىغان چاقىرىش ئۇقتۇرۇشى.</string>
     <string name="BlockUnblockDialog_your_chat_history_with_s_will_be_deleted">سىزنىڭ %1$s بىلەن بولغان سۆھبىتىڭىز ئۆچۈرۈلىدۇ.</string>
     <string name="BlockUnblockDialog_deleted_contacts_are_still_able_to_call_you_or_send_you_messages">ئەگەر ئۇلارمۇ توسۇلمىسا، ئۆچۈرۈلگەن ئالاقەداش يەنىلا سىزنى چاقىرالايدۇ ياكى سىزگە ئۇچۇر يوللىيالايدۇ.</string>
-    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Molly ئىشلەتكۈچىنىڭ سىز ئىكەنلىكىنى جەزملەڭ</string>
+    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Polly ئىشلەتكۈچىنىڭ سىز ئىكەنلىكىنى جەزملەڭ</string>
     <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">بۇ ئۈسكۈنىدە بىيولوگىيەلىك خاسلىق ئىقتىدارى يوق</string>
     <string name="Megaphones_turn_on_stories">ھېكايەنى ئاچ</string>
     <string name="RegistrationActivity_link_device">مەۋجۇت ئۈسكۈنىگە باغلاندى</string>
-    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android ئۈسكۈنىسى ئۈچۈن: Molly. نى ئورنىتىشتا %s نى زىيارەت قىلىڭ.</string>
+    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android ئۈسكۈنىسى ئۈچۈن: Polly. نى ئورنىتىشتا %s نى زىيارەت قىلىڭ.</string>
     <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">ئۇقتۇرۇش يەتكۈزۈشنى تىزىملىتىۋاتقاندا خاتالىق كۆرۈلدى: %s</string>
     <string name="NotificationsSettingsFragment__mollysocket_server">MollySocket مۇلازىمېتىر</string>
     <string name="NotificationsSettingsFragment__not_selected">تاللانمىدى</string>
@@ -152,11 +152,11 @@
     <string name="BlockUnblockDialog_your_chat_history_with_s_will_be_deleted_and_s_will_be_removed_from_your_phone_contacts">سىزنىڭ %1$s بىلەن بولغان سۆھبىتىڭىز ئۆچۈرۈلىدۇ ھەمدە %1$s نى ئۈسكۈنىڭىزدىكى ئالاقەداشتىن چىقىرىۋېتىدۇ.</string>
     <string name="PrivacySettingsFragment__please_first_setup_your_biometrics_in_android_settings">ئالدى بىلەن Android تەڭشىكىدە بىيولوگىيەلىك خاسلىقنى تەڭشەڭ</string>
     <string name="BiometricDialogFragment__biometric_verification">بىيولوگىيەلىك خاسلىق دەلىللەش</string>
-    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Molly يېڭى نەشرىنى قەرەللىك تەكشۈرۈپ، ئۇلارنى ئورنىتىش سورايدۇ.</string>
+    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Polly يېڭى نەشرىنى قەرەللىك تەكشۈرۈپ، ئۇلارنى ئورنىتىش سورايدۇ.</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">باغلانغان بارلىق ئۈسكۈنىلەردە ئۇچۇرلىشىش شەخسىي بولىدۇ.</string>
-    <string name="LinkDeviceFragment__use_molly_on_another_devices">باشقا بىر ئۈسكۈنىدە Molly ئىشلىتىدۇ. ئۇچۇرلىرىڭىز باغلانغان ئۈسكۈنىڭىزگە قەدەمداشلىنىدۇ.</string>
-    <string name="LinkDeviceFragment__molly_on_another_device">باشقا ئۈسكۈنىدىكى Molly</string>
-    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">ئۈسكۈنىڭىز كۈتۈش ھالىتىدە تۇرغان تەقدىردىمۇ، Molly نىڭ ۋاقتىدا ئۇقتۇرۇش يەتكۈزۈشىگە يول قويىدۇ.</string>
+    <string name="LinkDeviceFragment__use_molly_on_another_devices">باشقا بىر ئۈسكۈنىدە Polly ئىشلىتىدۇ. ئۇچۇرلىرىڭىز باغلانغان ئۈسكۈنىڭىزگە قەدەمداشلىنىدۇ.</string>
+    <string name="LinkDeviceFragment__molly_on_another_device">باشقا ئۈسكۈنىدىكى Polly</string>
+    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">ئۈسكۈنىڭىز كۈتۈش ھالىتىدە تۇرغان تەقدىردىمۇ، Polly نىڭ ۋاقتىدا ئۇقتۇرۇش يەتكۈزۈشىگە يول قويىدۇ.</string>
     <string name="DozeReminder_disable_battery_restrictions">توكدان چەكلىمىسىنى چەكلە</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">ئاخىرقى قېتىم تەكشۈرۈلگەن ۋاقىت: %s</string>
     <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Play مۇلازىمىتىنى تىزىملىتالمىدى</string>
